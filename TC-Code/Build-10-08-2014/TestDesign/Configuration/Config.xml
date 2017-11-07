@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCConfig>
+		<ApplicationPath value="C:\Program Files\IDEXX\VetStation\VetLab Station.exe" />
+		<AppMsgsPath value="C:\IDEXX\LabStation\incoming" />
+		<strResultFilePath value="TestReport\ExecutionReport"/>
+		<driverDataPath value="TestDesign\TestSuite\IVLS.xls"/>
+		<tcDataPath value="TestDesign\TestSuite\Module"/>
+		<tdPath value="TestDesign\TestData"/>
+		<configPath value="TestDesign\Configuration\Config.xml"/>
+		<notificationPath value="TestDesign\Configuration\SQL_files\Notifications"/>
+		<orPath value="TestDesign\ObjectRepository"/>
+		<orFileName value="TestDesign\ObjectRepository\IVLSObjectRepository.xml"/> 
+		<propertiesName value="TestDesign\TestData\propertiesfiles\"/>
+		<strTestResultfilepath value="TestReport\HTMLReport\testReports\xml"/>
+		<strTestResultfilepath value="TestReport\HTMLReport\testReports\xml"/>
+		<strTestResultfile value="\TestResultList.xml"/>
+		<strSnapsParentfolder value="TestReport\HTMLReport\screenShots"/>
+		<strSNAPlogReportFolder value="TestReport\SNAPlogReport"/>
+		<strRecentTestResultsFolder value="TestReport\RecentTestResults"/>
+		<WindowPropertyName value="JavaClassName"/>
+		<WindowPropertyValue value="Stage"/>
+		<WaitTimeInMilliSec value="60000"/>
+		<WindowLoadTimeout_ms value="60000"/>
+		<WindowWaitTime value="3000"/>
+
+		<ADSAutoModeEnabled value ="HKEY_LOCAL_MACHINE\SOFTWARE\IDEXX Laboratories, Inc.\FlowCytometer\ADS\ADSAutoModeEnabled"/>
+		<EnableScopeLogging value ="HKEY_LOCAL_MACHINE\SOFTWARE\IDEXX Laboratories, Inc.\VetLabStation\EnableScopeLogging"/>
+		<ShutdownOnExit value="HKEY_LOCAL_MACHINE\SOFTWARE\IDEXX Laboratories, Inc.\VetLabStation\ShutdownOnExit"/>
+		
+		
+		<DisplayPendingRequests value ="HKLM\SOFTWARE\IDEXX Laboratories, Inc.\VetLabStation\DisplayPendingRequests"/>
+		<DisplayCensusList value ="HKLM\SOFTWARE\IDEXX Laboratories, Inc.\VetLabStation\DisplayCensusList"/>
+		<DisplayRecentResults value="HKLM\SOFTWARE\IDEXX Laboratories, Inc.\VetLabStation\DisplayRecentResults"/>
+		<RequireReasonForTesting value ="HKLM\SOFTWARE\IDEXX Laboratories, Inc.\VetLabStation\RequireReasonForTesting"/>
+		<EnableStat value ="HKLM\SOFTWARE\IDEXX Laboratories, Inc.\VetLabStation\EnableStat"/>
+		<DisplayClientFirstName value="HKLM\SOFTWARE\IDEXX Laboratories, Inc.\VetLabStation\DisplayClientFirstName"/>
+    	<DisplayClientLastName value ="HKLM\SOFTWARE\IDEXX Laboratories, Inc.\VetLabStation\DisplayClientLastName"/>
+		<DisplayDoctorName value ="HKLM\SOFTWARE\IDEXX Laboratories, Inc.\VetLabStation\DisplayDoctorName"/>
+		<DisplayPatientBreed value="HKLM\SOFTWARE\IDEXX Laboratories, Inc.\VetLabStation\DisplayPatientBreed"/>
+		<DisplayPatientGender value ="HKLM\SOFTWARE\IDEXX Laboratories, Inc.\VetLabStation\DisplayPatientGender"/>
+		<DisplayPatientWeight value ="HKLM\SOFTWARE\IDEXX Laboratories, Inc.\VetLabStation\DisplayPatientWeight"/>
+
+		
+		
+		
+		
+		<AppRoot value="HKEY_LOCAL_MACHINE\SOFTWARE\IDEXX Laboratories, Inc.\AppRoot"/>
+</TCConfig>

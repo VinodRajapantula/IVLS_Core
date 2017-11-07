@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="logs">
+			<Node name="log0">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="41922.2414730324"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{D8AF9900-7F4C-4F9A-BA12-80E389411562}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [DriverScript\driverScript]"/>
+				<Prp name="relpath" type="S" value="10_10_2014_5_47 AM_43_269\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log1">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="41922.2897663079"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{6CAFEA79-C414-4FB5-B055-66AB66EC9C32}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [DriverScript\driverScript]"/>
+				<Prp name="relpath" type="S" value="10_10_2014_6_57 AM_15_809\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log2">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="41922.2908842824"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="key" type="S" value="{1C67C332-4ECD-4353-A8FF-F81B0B5FD7D8}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [DriverScript\driverScript]"/>
+				<Prp name="relpath" type="S" value="10_10_2014_6_58 AM_52_402\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log3">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="41922.3175271875"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="key" type="S" value="{7DD80975-FDC8-4875-8EE0-E9034F3BED7B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [DriverScript\driverScript]"/>
+				<Prp name="relpath" type="S" value="10_10_2014_7_37 AM_14_348\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log4">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="41922.3368124306"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="key" type="S" value="{C0AB031D-5903-4D60-9A1F-31BF6BD73972}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [DriverScript\driverScript]"/>
+				<Prp name="relpath" type="S" value="10_10_2014_8_05 AM_00_594\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="7.0"/>
+	</Node>
+</Nodes>
